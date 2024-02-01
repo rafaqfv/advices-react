@@ -20,12 +20,12 @@ function App() {
   return (
     <>
       <div className="w-full h-screen bg-slate-900 flex flex-col justify-center items-center">
-        <h1 className="text-4xl text-white font-semibold text-center">
+        <h1 className="text-4xl text-white font-semibold text-center pb-2">
           Advices
         </h1>
-        <p className="text-white font-light text-center">{advice}</p>
+        <p className="text-white font-light text-center px-6">{advice}</p>
         <button
-          className="absolute bottom-12 bg-yellow-500 rounded-lg px-4 py-2"
+          className="absolute bottom-12 bg-yellow-500 rounded-lg px-4 py-2 font-semibold text-slate-900"
           onClick={api}
         >
           Get an advice
