@@ -25,7 +25,7 @@ function App() {
         </h1>
         <p className="text-white font-light text-center">{advice}</p>
         <button
-          className="absolute bottom-4 bg-yellow-500 rounded-lg px-4 py-2"
+          className="absolute bottom-12 bg-yellow-500 rounded-lg px-4 py-2"
           onClick={api}
         >
           Get an advice
