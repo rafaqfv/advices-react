@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-screen bg-slate-900 flex flex-col justify-center items-center">
+      <div className="w-full h-svh bg-slate-900 flex flex-col justify-center items-center">
         <h1 className="text-4xl text-white font-semibold text-center pb-2">
           Advices
         </h1>
