@@ -23,7 +23,7 @@ I learned how to **deploy** with **gh-pages** and below is the step by step
     "deploy": "gh-pages -d dist"
   },
 ```
-3. Config do vite.config.js
+3. Configure vite.config.js
 ```
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
