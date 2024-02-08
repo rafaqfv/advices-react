@@ -7,7 +7,7 @@ What i learned here?
 I learned how to **deploy** with **gh-pages** and below is the step by step
 
 1. `npm i gh-pages`
-2. configure the same as below (package.json)
+2. Configure the same as below (package.json)
 ```
   "homepage": "https://${usuario}.github.io/${caminho-do-repositório}",
   "name": "project-name",
@@ -23,7 +23,7 @@ I learned how to **deploy** with **gh-pages** and below is the step by step
     "deploy": "gh-pages -d dist"
   },
 ```
-3. vite.config.js
+3. Config do vite.config.js
 ```
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
