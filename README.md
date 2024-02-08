@@ -4,9 +4,12 @@ This is my first react project, and with an advice api
 
 What i learned here?
 
-Deploy with gh-pages with `npm run deploy`
+I learned how to **deploy** with **gh-pages** and below is the step by step
+
+1. `npm i gh-pages`
+2. configure the same as below (package.json)
 ```
-  "homepage": "https://${USUÁRIO}.github.io/${caminho do repositório}",
+  "homepage": "https://${usuario}.github.io/${caminho-do-repositório}",
   "name": "project-name",
   "private": true,
   "version": "0.0.0",
@@ -20,3 +23,16 @@ Deploy with gh-pages with `npm run deploy`
     "deploy": "gh-pages -d dist"
   },
 ```
+3. vite.config.js
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: "/advices-react",
+});
+
+```
+4. `npm run deploy`
